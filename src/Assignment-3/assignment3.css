@@ -1,7 +1,58 @@
 /* Our CSS file. */
 
+.container,
+.content {
+    width: 100%;
+    height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.content {
+    width: 60%;
+    text-align: center;
+    background: #f2f2f2;
+    height: 300px;
+    margin: 10px 20px;
+    border: 1px solid black;
+}
+
+.left,
+.right {
+    display: inline-block;
+    width: 40%;
+}
+
+.left {
+    vertical-align: top;
+}
+
+.right {
+    height: inherit;
+}
+
+#render-wiki {
+    border: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.but {
+    background: black;
+    color: white;
+    border: 1px solid black;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
+
+.right1 {
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+
+#render-dictionary {
+    border: 0px;
+    height: 102.5px;
+    width: 97%;
 }
