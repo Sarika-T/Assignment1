@@ -26,7 +26,8 @@
     align-content: center;
 }
 
-.btn {
+.btn,
+.btn1 {
     height: 50px;
     width: 150px;
     color: white;
