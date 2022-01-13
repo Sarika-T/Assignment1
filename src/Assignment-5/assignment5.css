@@ -26,19 +26,22 @@
     align-content: center;
 }
 
-.btn {
+.btn,
+.btn1 {
     height: 50px;
     width: 150px;
     color: white;
-    background: lightgreen;
+    background: rgb(76, 236, 76);
     border-radius: 40px;
+    border: 1px solid;
+    padding: 20px 20px;
 }
 
 .blocks {
     /* border: 1px solid red; */
     flex: 1 0 40%;
     flex-direction: row;
-    background-color: green;
+    background-color: rgb(76, 236, 76);
 }
 
 #image {
